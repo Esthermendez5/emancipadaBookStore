@@ -1,0 +1,35 @@
+/*!
+Theme Name: Blocksy
+Theme URI: https://creativethemes.com/blocksy/
+Author: CreativeThemes
+Author URI: https://creativethemes.com
+Description: Blocksy is a fast, modern WordPress theme with advanced WooCommerce support and full compatibility with the block editor.
+Version: 2.1.22
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Copyright: (c) 2019 CreativeThemes.
+Requires at least: 6.5
+Requires PHP: 7.0
+Tested up to: 6.8
+Text Domain: blocksy
+Blocksy Minimum Companion Version: 2.0.74-beta1
+Tags: accessibility-ready, blog, block-patterns, e-commerce, wide-blocks, block-styles, grid-layout, one-column, two-columns, three-columns, four-columns, right-sidebar, left-sidebar, translation-ready, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments
+*/
+/* Asegúrate de que este código sigue en Apariencia > Personalizar > CSS Adicional */
+
+/* Títulos principales (h1, h2) - Melancholy-Serif */
+h1, h2, .entry-title {
+    font-family: 'Melancholy-Serif', Georgia, serif !important; 
+}
+
+/* Contenido y subtítulos (h3, h4, etc.) - Roboto Slab */
+body, p, li, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', 'Times New Roman', serif !important;
+}
+.portada-libro {
+    width: 100%;             /* O el ancho fijo que quieras, ej: 250px */
+    height: 375px;           /* Altura fija OBLIGATORIA */
+    object-fit: cover;       /* LA CLAVE: Esto recorta la imagen automáticamente para llenar el espacio sin deformarla */
+    object-position: center; /* Centra la imagen */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra elegante opcional */
+}
